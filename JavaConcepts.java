@@ -200,23 +200,23 @@ public class AbstractClasses
             M3.IsAccepted();
             M4.IsAccepted();
             
-            System.out.println("The color of"+ M1.getName() + "is:" + M1.getColor());
-            System.out.println("The color of"+ M2.getName() + "is:" + M2.getColor()); 
-            System.out.println("The color of"+ M3.getName() + "is:" + M3.getColor()); 
-            System.out.println("The color of"+ M4.getName() + "is:" + M4.getColor());
+            System.out.println("The color of "+ M1.getName() + " is: " + M1.getColor());
+            System.out.println("The color of "+ M2.getName() + " is: " + M2.getColor()); 
+            System.out.println("The color of "+ M3.getName() + " is: " + M3.getColor()); 
+            System.out.println("The color of "+ M4.getName() + " is: " + M4.getColor());
             
-            System.out.println("The quality of"+ M1.getName() + "is:" + M1.getQuality());
-            System.out.println("The quality of"+ M2.getName() + "is:" + M2.getQuality()); 
-            System.out.println("The quality of"+ M3.getName() + "is:" + M3.getQuality()); 
-            System.out.println("The quality of"+ M4.getName() + "is:" + M4.getQuality()); 
+            System.out.println("The quality of "+ M1.getName() + " is: " + M1.getQuality());
+            System.out.println("The quality of "+ M2.getName() + " is: " + M2.getQuality()); 
+            System.out.println("The quality of "+ M3.getName() + " is: " + M3.getQuality()); 
+            System.out.println("The quality of "+ M4.getName() + " is: " + M4.getQuality()); 
             
-            System.out.println("The volume of"+ M1.getName() + "is:" + M1.volume());
-            System.out.println("The volume of"+ M2.getName() + "is:" + M2.volume()); 
-            System.out.println("The volume of"+ M3.getName() + "is:" + M3.volume()); 
-            System.out.println("The volume of"+ M4.getName() + "is:" + M4.volume());
+            System.out.println("The volume of "+ M1.getName() + " is: " + M1.volume());
+            System.out.println("The volume of "+ M2.getName() + " is: " + M2.volume()); 
+            System.out.println("The volume of "+ M3.getName() + " is: " + M3.volume()); 
+            System.out.println("The volume of "+ M4.getName() + " is: " + M4.volume());
             
-            System.out.println("The Total Number of Accepted Minerals:"+ Metals.GetAccepted()); 
-            System.out.println("The Total Number of Rejected Minerals:"+ Metals.GetRejected()); 
+            System.out.println("The Total Number of Accepted Minerals: "+ Metals.GetAccepted()); 
+            System.out.println("The Total Number of Rejected Minerals: "+ Metals.GetRejected()); 
             
             Bars.Display dis = new Bars("Blue","Sapphire",9,15,6,7).new Display();
             dis.DisplayHeight();
