@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp"
+        android:layout_toStartOf="@+id/editPasswordText"
+        android:layout_toLeftOf="@+id/editPasswordText"
+        android:text="Enter Email Address: "
+        android:textColor="@color/colorText"
+        android:textSize="6pt" />
+        />
+
+    <EditText
+        android:id="@+id/editEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/emailText"
+        android:layout_alignRight="@+id/emailText"
+        android:layout_alignTop="@+id/editPasswordText"
+        android:text="Enter Password:"
+        android:textColor="@color/colorText"
+        android:textSize="6pt" />
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:text="Sign Up"
+        android:textColor="@color/colorText"
+        android:textSize="12pt" />
+
+    <RadioButton
+        android:id="@+id/maleRadioButton"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="247dp"
+        android:text="Male" />
+
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="63dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/maleRadioButton"
+        android:layout_centerHorizontal="true"
+        android:text="Female" />
+
+    <TextView
+        android:id="@+id/gendertext"
+        android:layout_width="96dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/maleRadioButton"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:text="Select Gender" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="276dp"
+        android:text="Do you accept the license agreement?" />
+
+    <Button
+        android:id="@+id/regButton"
+        android:layout_width="161dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="204dp"
+        android:text="Register!"
+        android:textSize="12pt" />
+
+
+</RelativeLayout>
